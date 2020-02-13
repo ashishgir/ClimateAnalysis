@@ -10,33 +10,33 @@ Some say climate change is the biggest threat of our age while others say it’s
 
 Global Land and Ocean-and-Land Temperatures (GlobalTemperatures.csv):
 
-Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures \n
-LandAverageTemperature: global average land temperature in celsius \n
-LandAverageTemperatureUncertainty: the 95% confidence interval around the average
-LandMaxTemperature: global average maximum land temperature in celsius
-LandMaxTemperatureUncertainty: the 95% confidence interval around the maximum land temperature
-LandMinTemperature: global average minimum land temperature in celsius
-LandMinTemperatureUncertainty: the 95% confidence interval around the minimum land temperature
-LandAndOceanAverageTemperature: global average land and ocean temperature in celsius
-LandAndOceanAverageTemperatureUncertainty: the 95% confidence interval around the global average land and ocean temperature
+Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures <br>
+LandAverageTemperature: global average land temperature in celsius <br>
+LandAverageTemperatureUncertainty: the 95% confidence interval around the average <br>
+LandMaxTemperature: global average maximum land temperature in celsius <br>
+LandMaxTemperatureUncertainty: the 95% confidence interval around the maximum land temperature <br>
+LandMinTemperature: global average minimum land temperature in celsius <br>
+LandMinTemperatureUncertainty: the 95% confidence interval around the minimum land temperature <br>
+LandAndOceanAverageTemperature: global average land and ocean temperature in celsius <br>
+LandAndOceanAverageTemperatureUncertainty: the 95% confidence interval around the global average land and ocean temperature <br>
 Other files include:
 
-Global Average Land Temperature by Country (GlobalLandTemperaturesByCountry.csv)
-Global Average Land Temperature by State (GlobalLandTemperaturesByState.csv)
-Global Land Temperatures By Major City (GlobalLandTemperaturesByMajorCity.csv)
-Global Land Temperatures By City (GlobalLandTemperaturesByCity.csv)
-The raw data comes from the Berkeley Earth data page.
+Global Average Land Temperature by Country (GlobalLandTemperaturesByCountry.csv) <br>
+Global Average Land Temperature by State (GlobalLandTemperaturesByState.csv) <br>
+Global Land Temperatures By Major City (GlobalLandTemperaturesByMajorCity.csv) <br>
+Global Land Temperatures By City (GlobalLandTemperaturesByCity.csv) <br>
+The raw data comes from the Berkeley Earth data page. <br>
 
-<img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Capture.PNG">
+<img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Capture.PNG"> <br>
 
 # Problem Statement
 We mainly focused on these problem statements,
 
-Map of temperatures and analysis of global warming
-How does climat change affect different places?
-Is The Mercury Rising?
-Global Temperature-Forecasting
-Visualizations of temperature change
-Temperature & Impact on Snowfall 
+Map of temperatures and analysis of global warming <br>
+How does climat change affect different places? <br>
+Is The Mercury Rising? <br>
+Global Temperature-Forecasting <br>
+Visualizations of temperature change <br>
+Temperature & Impact on Snowfall <br>
 
 
