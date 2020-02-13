@@ -27,3 +27,4 @@ Global Land Temperatures By Major City (GlobalLandTemperaturesByMajorCity.csv)
 Global Land Temperatures By City (GlobalLandTemperaturesByCity.csv)
 The raw data comes from the Berkeley Earth data page.
 
+<img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Capture.PNG">
