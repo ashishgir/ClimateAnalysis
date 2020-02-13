@@ -1,2 +1,2 @@
 # ClimateAnalysis
-Big Data Project using GCP to process the Datasets.
+In this project we have analysed Climate Change: Earth Surface Temperature dataset using MapReduce , Hive, Spark and BigQuery in Google Cloud Platform(GCP).
