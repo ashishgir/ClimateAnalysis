@@ -10,8 +10,8 @@ Some say climate change is the biggest threat of our age while others say it’s
 
 Global Land and Ocean-and-Land Temperatures (GlobalTemperatures.csv):
 
-Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures
-LandAverageTemperature: global average land temperature in celsius
+Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures \n
+LandAverageTemperature: global average land temperature in celsius \n
 LandAverageTemperatureUncertainty: the 95% confidence interval around the average
 LandMaxTemperature: global average maximum land temperature in celsius
 LandMaxTemperatureUncertainty: the 95% confidence interval around the maximum land temperature
