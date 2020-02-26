@@ -89,3 +89,17 @@ climatic data is reduced with Hadoop MapReduce framework. Proposed Spatial Cumul
 monitor the day wise changes in the climate from many years. MapReduce algorithm is used to create a table also.
 
 # Cumulative Sum Method(CUSUM)
+Cumulative Sum method [3] is use to find drastic changes in the mean value of quantity of interest. Here cumulative
+sum method is used to monitor the changes in the climate. For ‘n’ data points X1, X2,…, Xn, calculate average by
+equation as follows:
+ X¯ = X1 + X2 + . . . + Xn
+The Cumulative Sum value SI is calculated by the equation:
+ SI = Si−1 + Xi − X¯ for i = 1, 2, …, n
+ where consider, S0 = 0
+Calculate maximum and minimum, by equation given in below :
+ S_max = max i=0, 1,..., n Si
+ S_min = min i=0,1, ..., n Si
+Find S_diff values to detect the changes in cumulative sum value SI, by equation as :
+ S_diff = S_max – S_min 
+ 
+ 
