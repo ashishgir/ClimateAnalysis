@@ -38,4 +38,10 @@ Global Temperature-Forecasting <br>
 Visualizations of temperature change <br>
 Temperature & Impact on Snowfall <br>
 
+# Implementation
+Analyzing a huge data sets is the method of big data which comprises a classes of data types. The big data maintain
+a significant amount of data and process that data.  The most popular Big Data handling and processing technique is Hadoop Map-Reduce which is currently used. Map-Reduce is a technique which executes parallel and distributed algorithm across large data using number of
+clusters. In the proposed system, Map-Reduce algorithm is used to calculate minimum and maximum temperature of a
+particular city and Spatial Cumulative Sum(CUSUM) based algorithm is proposed to detect the changes in the climate
+which produces the results in the form of graphs with temperature values. Map-Reduce is a process which will be work in three steps, namely map, shuffle, and reduce. The mapper's job is to process the input data in map stage. In Hadoop file system, the input data is in sort of file and is collected from various weather sites. And the reducer will take the output from the Map as an input and combined that data into a set of tuples. 
 
