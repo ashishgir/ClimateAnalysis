@@ -38,8 +38,9 @@ Global Temperature-Forecasting <br>
 Visualizations of temperature change <br>
 Temperature & Impact on Snowfall <br>
 
-# Implementation
-# MAPREDUCE PROGRAMMING
+# IMPLEMENTATION
+
+# Mapreduce Programming
 Analyzing a huge data sets is the method of big data which comprises a classes of data types. The big data maintain
 a significant amount of data and process that data.  The most popular Big Data handling and processing technique is Hadoop Map-Reduce which is currently used. Map-Reduce is a technique which executes parallel and distributed algorithm across large data using number of
 clusters. In the proposed system, Map-Reduce algorithm is used to calculate minimum and maximum temperature of a
@@ -55,3 +56,36 @@ not match the criteria. Since mapper is not a part of Hadoop which read data. Th
 file format reader and input file format reader is modified to read sequenced files. This routine opens a file and
 performs a simple loop to read each (key, value) within file. The desired key if filter matched, then values which are read into memory and passed to the mapper. If filter is not match, then values were skipped. In the mapper, null values
 is to filter for calculation of a place, id is used as a key and combination of date and place is used as Key.
+
+# Reduce Operation 
+The resulting (key, value) pairs which matched the criteria is analyzed and forward to reducer with sequencing and
+complete mapping process, Once a (key, value) object has created, a comparator is needed to order keys. If data is
+combined, a group comparator is also needed. In a partitioner must be created in order to handle partitioning data into
+groups of sorted keys.With all these components in place, Hadoop takes the (key, value) pairs which is created by using
+mappers and group and sort them as specified way. Hadoop assumes that all values share a key will sent to same
+reducer and a single operation over a large data set will employ on one reducer, This gives us result in number of output
+files. 
+
+# Map-Reduce Model
+The Map-Reduce process which is executed for minimum and maximum operation on the National climatic data is
+given as follows :
+1. Weather data set files is inserted into sequence files on head node of Hadoop Distributed File System.
+2. The sequence files which are loaded into Hadoop file system with replica factor three.
+3. The job provides Map-Reduce operation which is submitted to head node to run. The head node schedules
+with job tracker and on cluster jobs which is to be run. Hadoop distributes mappers to all data nodes which
+contains data to analyze.
+4. For reading the input format reader opens up each sequence file which passes all the (key, value) pairs to map
+function on each node.
+5. The mapper determines, if key matches the criteria for query. If mapper keeps (key, value) pairs for delivery to
+the reducer. If not, The pair is discarded. The keys, values in a file are read and also analyze by using the
+mapper.
+6. The (key, value) pairs will match query are to sent to reducer and reducer performing the average function on
+the sorted pairs to create final (key, value) pair results.
+7. In a Hadoop Distributed File System as a sequence file, the final output is stored.
+
+# PROPOSED ALGORITHM
+The proposed framework for detection of climate change and raw weather station data are shown in Fig.2. A big
+climatic data is reduced with Hadoop MapReduce framework. Proposed Spatial Cumulative Sum algorithm is used to
+monitor the day wise changes in the climate from many years. MapReduce algorithm is used to create a table also.
+
+# Cumulative Sum Method(CUSUM)
