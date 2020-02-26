@@ -39,9 +39,19 @@ Visualizations of temperature change <br>
 Temperature & Impact on Snowfall <br>
 
 # Implementation
+# MAPREDUCE PROGRAMMING
 Analyzing a huge data sets is the method of big data which comprises a classes of data types. The big data maintain
 a significant amount of data and process that data.  The most popular Big Data handling and processing technique is Hadoop Map-Reduce which is currently used. Map-Reduce is a technique which executes parallel and distributed algorithm across large data using number of
 clusters. In the proposed system, Map-Reduce algorithm is used to calculate minimum and maximum temperature of a
 particular city and Spatial Cumulative Sum(CUSUM) based algorithm is proposed to detect the changes in the climate
 which produces the results in the form of graphs with temperature values. Map-Reduce is a process which will be work in three steps, namely map, shuffle, and reduce. The mapper's job is to process the input data in map stage. In Hadoop file system, the input data is in sort of file and is collected from various weather sites. And the reducer will take the output from the Map as an input and combined that data into a set of tuples. 
 
+# Mapper Operation 
+The mapping is a simple process in that the variables which matched certain will be sent to the reducer. It consider
+mappers is acts like a distributed search capability and pull (key, value) pairs of a file. The input file format reader of
+hadoop opens files and which starts to read file for (key, value) pairs. Once it determine (key, value) pair, it reads both
+key and values which passes to the mapper and mapping operator which is used to filter out (key, value) pairs which
+not match the criteria. Since mapper is not a part of Hadoop which read data. The mapper is collecting data from input
+file format reader and input file format reader is modified to read sequenced files. This routine opens a file and
+performs a simple loop to read each (key, value) within file. The desired key if filter matched, then values which are read into memory and passed to the mapper. If filter is not match, then values were skipped. In the mapper, null values
+is to filter for calculation of a place, id is used as a key and combination of date and place is used as Key.
