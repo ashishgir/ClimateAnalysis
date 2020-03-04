@@ -31,12 +31,8 @@ The raw data comes from the Berkeley Earth data page. <br>
 # Problem Statement
 We mainly focused on these problem statements,
 
-Map of temperatures and analysis of global warming <br>
-How does climat change affect different places? <br>
-Is The Mercury Rising? <br>
-Global Temperature-Forecasting <br>
-Visualizations of temperature change <br>
-Temperature & Impact on Snowfall <br>
+Analysis of global warming affect in different places using K-means Clustering technique to group similar data and classification that categorizes data objects into the predefined groups involving Social Network Analysis Technique <br>
+Visualizations of temperature change by Mapping it on Dynamic Map in Jupyter, using "plotly" that shows changes in average temperature of countries with 10 years period <br>
 
 # IMPLEMENTATION
 
