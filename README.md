@@ -32,6 +32,7 @@ The raw data comes from the Berkeley Earth data page. <br>
 We mainly focused on these problem statements,
 
 Analysis of global warming affect in different places using K-means Clustering technique to group similar data and classification that categorizes data objects into the predefined groups involving Social Network Analysis Technique <br>
+<br>
 Visualizations of temperature change by Mapping it on Dynamic Map in Jupyter, using "plotly" that shows changes in average temperature of countries with 10 years period <br>
 
 # IMPLEMENTATION
