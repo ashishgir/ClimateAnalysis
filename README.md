@@ -34,6 +34,18 @@ We mainly focused on these problem statements,
 Analysis of global warming affect in different places using K-means Clustering technique to group similar data and classification that categorizes data objects into the predefined groups involving Social Network Analysis Technique <br>
 <br>
 Visualizations of temperature change by Mapping it on Dynamic Map in Jupyter, using "plotly" that shows changes in average temperature of countries with 10 years period <br>
+<br>
+# Social Network Analysis Technique
+Big Data Social Network Analysis (BDSNA) is the focal computational and graphical study of powerful techniques that can be used to identify clusters, patterns, hidden structures, generate business intelligence, in social relationships within social networks in terms of network theory. This study applies various social network analysis and visualization tools to examine the structure and patterns of interdisciplinary collaborations, as well as the recently evolving overall pattern.
+
+# Load the data
+BigQuerysupports the following data formats when loading data into tables: CSV, JSON, AVRO, or Cloud Datastore backups. Data can be loaded into BigQuery using a job or by streaming records individually. 
+Load jobs support three data sources:
+•Objects inGoogle Cloud Storage
+•Data sent with the job orstreaming insert
+•Google Cloud Datastorebackup
+
+
 
 # IMPLEMENTATION
 
