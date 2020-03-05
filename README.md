@@ -36,17 +36,25 @@ Analysis of global warming affect in different places using K-means Clustering t
 Visualizations of temperature change by Mapping it on Dynamic Map in Jupyter, using "plotly" that shows changes in average temperature of countries with 10 years period <br>
 <br>
 # Social Network Analysis Technique
-Big Data Social Network Analysis (BDSNA) is the focal computational and graphical study of powerful techniques that can be used to identify clusters, patterns, hidden structures, generate business intelligence, in social relationships within social networks in terms of network theory. This study applies various social network analysis and visualization tools to examine the structure and patterns of interdisciplinary collaborations, as well as the recently evolving overall pattern.
+Big Data Social Network Analysis (BDSNA) is the focal computational and graphical study of powerful techniques that can be used to identify clusters, patterns, hidden structures, generate business intelligence, in social relationships within social networks in terms of network theory. This study applies various social network analysis and visualization tools to examine the structure and patterns of interdisciplinary collaborations, as well as the recently evolving overall pattern. Centering around a few important disciplines, all fields related to Big Data research are aggregated into communities, suggesting some related research areas, and directions for Big Data research. An ever-changing roster of related disciplines provides support, as illustrated by the evolving graph of communities.
 
 # Load the data
 BigQuerysupports the following data formats when loading data into tables: CSV, JSON, AVRO, or Cloud Datastore backups. Data can be loaded into BigQuery using a job or by streaming records individually. 
-Load jobs support three data sources:
+Load jobs support three data sources:<br>
 •Objects inGoogle Cloud Storage<br>
 •Data sent with the job orstreaming insert<br>
 •Google Cloud Datastorebackup<br>
 
 <br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Storage1.PNG"> <br>
+
+# BigQuery
+BigQuery leverages a columnar storage format and compression algorithm to store data in Colossus in the most optimal way for reading large amounts of structured data. Colossus allows BigQuery users to scale to dozens of Petabytes in storage seamlessly, without paying the penalty of attaching much more expensive compute resources —typical with most traditional databases.
+
 <br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/BigQuery1.PNG"> <br>
+
+# Cloud Dataproc
+
+Cloud Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Cloud Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them. With less time and money spent on administration, you can focus on your jobs and your data.
 
 # IMPLEMENTATION
 
@@ -93,23 +101,4 @@ mapper.
 the sorted pairs to create final (key, value) pair results.
 7. In a Hadoop Distributed File System as a sequence file, the final output is stored.
 
-# PROPOSED ALGORITHM
-The proposed framework for detection of climate change and raw weather station data are shown in Fig.2. A big
-climatic data is reduced with Hadoop MapReduce framework. Proposed Spatial Cumulative Sum algorithm is used to
-monitor the day wise changes in the climate from many years. MapReduce algorithm is used to create a table also.
 
-# Cumulative Sum Method(CUSUM)
-Cumulative Sum method [3] is use to find drastic changes in the mean value of quantity of interest. Here cumulative
-sum method is used to monitor the changes in the climate. For ‘n’ data points X1, X2,…, Xn, calculate average by
-equation as follows:
- X¯ = X1 + X2 + . . . + Xn
-The Cumulative Sum value SI is calculated by the equation:
- SI = Si−1 + Xi − X¯ for i = 1, 2, …, n
- where consider, S0 = 0
-Calculate maximum and minimum, by equation given in below :
- S_max = max i=0, 1,..., n Si
- S_min = min i=0,1, ..., n Si
-Find S_diff values to detect the changes in cumulative sum value SI, by equation as :
- S_diff = S_max – S_min 
- 
- 
