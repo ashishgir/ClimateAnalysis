@@ -41,11 +41,12 @@ Big Data Social Network Analysis (BDSNA) is the focal computational and graphica
 # Load the data
 BigQuerysupports the following data formats when loading data into tables: CSV, JSON, AVRO, or Cloud Datastore backups. Data can be loaded into BigQuery using a job or by streaming records individually. 
 Load jobs support three data sources:
-•Objects inGoogle Cloud Storage
-•Data sent with the job orstreaming insert
-•Google Cloud Datastorebackup
+•Objects inGoogle Cloud Storage<br>
+•Data sent with the job orstreaming insert<br>
+•Google Cloud Datastorebackup<br>
 
-
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Storage1.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/BigQuery1.PNG"> <br>
 
 # IMPLEMENTATION
 
