@@ -101,4 +101,12 @@ mapper.
 the sorted pairs to create final (key, value) pair results.
 7. In a Hadoop Distributed File System as a sequence file, the final output is stored.
 
+# Spark Programming
 
+Analysis  for  the  same  dataset  using spark  query  was  so  much  easy  and  took  very  less  efforts  than  MapReduce  and  Hive. We  implemented  one  spark  query  with  mapper  and  reducer functions to find the count of the parameters occurred in one state. So, in this all the states are listed and thus we get to  know  the  count  of  it.  The  lambda  function  is  called  inside  the  mapper  function  to  map  the  parameter   count   of the respective  parameter  names  of  a  specific  state.  Later,  the  records   are   reduced   by   key   to   aggregate   all   the   similar   instances  to  get  the  count  of  occurrence  of  the  number  of  pollutants  in  a  state  required  for  analysis.  “SaveAsTextFile” command helps in saving the output of the spark program into a file called result1.
+
+# Implementation using Colab
+
+Google Colabcolab.research.google.com
+Data science. With Colab you can harness the full power of popular Python libraries to analyze and visualize data.
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab1.PNG"> <br>
