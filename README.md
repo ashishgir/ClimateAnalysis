@@ -120,13 +120,13 @@ Google Colaboratory is an online platform to perform data analysis. It enables y
 -> Integrate PyTorch, TensorFlow, Keras, OpenCV
 -> Free Cloud service with free GPU
 
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab1.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab2.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab3.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab4.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab5.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab6.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab7.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab8.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab9.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab1.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab2.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab3.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab4.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab5.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab6.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab7.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab8.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab9.PNG"> <br>
 
