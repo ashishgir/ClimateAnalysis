@@ -146,3 +146,7 @@ For better visualization of data, I choosed to work with COLAB and then a web ap
 <br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web2.PNG"> <br>
 <br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web3.PNG"> <br>
 <br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web4.PNG"> <br>
+
+# End thoughts
+Unanswered question: why is the "Cold Weather" getting hotter more rapidly than the "Hot Weather"? 
+As always, I hope that this small analysis inspires people and makes them a smidge more conscious about what surrounds us and how we can start making a positive impact on these changes.
