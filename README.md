@@ -109,4 +109,24 @@ Analysis  for  the  same  dataset  using spark  query  was  so  much  easy  and 
 
 Google Colabcolab.research.google.com
 Data science. With Colab you can harness the full power of popular Python libraries to analyze and visualize data.
+<br>
+Google Colaboratory is an online platform to perform data analysis. It enables you to create interactive Jupyter notebooks that mix text with Python code to run queries and display data analysis results. Stored on Google Drive you'll be able to run notebooks and collaborate with peers through Google's cloud services. As a programmer, you can perform the following using Google Colab.
+-> Write and execute code in Python
+-> Document your code that supports mathematical equations
+-> Create/Upload/Share notebooks
+-> Import/Save notebooks from/to Google Drive
+-> Import/Publish notebooks from GitHub
+-> Import external datasets e.g. from Kaggle
+-> Integrate PyTorch, TensorFlow, Keras, OpenCV
+-> Free Cloud service with free GPU
+
 <br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab1.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab2.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab3.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab4.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab5.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab6.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab7.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab8.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab9.PNG"> <br>
+
