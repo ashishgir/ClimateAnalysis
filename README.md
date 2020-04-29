@@ -141,3 +141,8 @@ Data visualization is another form of visual art that grabs our interest and kee
 For better visualization of data, I choosed to work with COLAB and then a web application where the user selects data present in the excel sheet as a user input in a dropdown list which process the linear regression and presents the output in graph format as a data visualization part.
 
 
+
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web1.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web2.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web3.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Web4.PNG"> <br>
