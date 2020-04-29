@@ -120,13 +120,24 @@ Google Colaboratory is an online platform to perform data analysis. It enables y
 -> Integrate PyTorch, TensorFlow, Keras, OpenCV
 -> Free Cloud service with free GPU
 
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab1.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab2.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab3.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab4.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab5.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab6.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab7.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab8.PNG"> <br>
-<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/colab9.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab1.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab2.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab3.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab4.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab5.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab6.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab7.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab8.PNG"> <br>
+<br><img src="https://github.com/ashishgir/ClimateAnalysis/blob/master/Images/Colab9.PNG"> <br>
+
+# Linear regression 
+Linear regression  is a basic and commonly used type of predictive analysis.  The overall idea of regression is to examine two things: (1) does a set of predictor variables do a good job in predicting an outcome (dependent) variable?  (2) Which variables in particular are significant predictors of the outcome variable, and in what way do they–indicated by the magnitude and sign of the beta estimates–impact the outcome variable? There are multiple benefits of using regression analysis. They are as follows:
+It indicates the significant relationships between dependent variable and independent variable.
+It indicates the strength of impact of multiple independent variables on a dependent variable.
+Regression analysis also allows us to compare the effects of variables measured on different scales, such as the effect of price changes and the number of promotional activities. These benefits help market researchers / data analysts / data scientists to eliminate and evaluate the best set of variables to be used for building predictive models.
+
+# Visualization
+Data visualization is another form of visual art that grabs our interest and keeps our eyes on the message. When we see a chart, we quickly see trends and outliers. If we can see something, we internalize it quickly. It’s storytelling with a purpose. If you’ve ever stared at a massive spreadsheet of data and couldn’t see a trend, you know how much more effective a visualization can be.
+For better visualization of data, I choosed to work with COLAB and then a web application where the user selects data present in the excel sheet as a user input in a dropdown list which process the linear regression and presents the output in graph format as a data visualization part.
+
 
