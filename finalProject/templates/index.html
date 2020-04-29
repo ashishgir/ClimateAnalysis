@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GlobalLand  Temprature</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Check GlobalLand Temprature by city, and years." />
+	<meta name="keywords" content="check global land temprature, global land temprature by city, temprature by state" />
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css')}}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css')}}">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/themify-icons.css')}}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css')}}">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css')}}">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css')}}">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+
+	<!-- Modernizr JS -->
+	<script src="{{ url_for('static', filename='js/modernizr-2.6.2.min.js')}}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="gtco-loader"></div>
+	
+	<div id="page">
+
+	
+	<div class="page-inner">
+	<nav class="gtco-nav" role="navigation">
+		<div class="gtco-container">
+			
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<div id="gtco-logo"><a href="index.html">GlobalLand WT <em>.</em></a></div>
+				</div>
+				<div class="col-xs-8 text-right menu-1">
+					<ul>
+						<li class="btn-cta"><a href="#"><span>Home</span></a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+	
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url('static/images/img_4.jpg')">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-left">
+					
+
+					<div class="row row-mt-15em">
+						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+							<span class="intro-text-small">Welcome to GlobalLand Warming Temprature</span>
+							<h1>You can check Temprature of GlobalLand</h1>	
+						</div>
+						<div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+							<div class="form-wrap">
+								<div class="tab">
+									<ul class="tab-menu">
+										<li class="active gtco-first"><a href="#" data-tab="signup">City Yearly</a></li>
+										<li class="gtco-second"><a href="#" data-tab="login">GlobalLand Yearly</a></li>
+									</ul>
+									<div class="tab-content">
+										<div class="tab-content-inner active" data-content="signup">
+											<form action="." method="POST">
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label for="username">Select Country</label>
+													       <select name="country" class="countries form-control" id="countryId" required>
+                                                                    <option value="">Select</option>
+                                                            </select>   
+													</div>
+												</div>
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label for="password">Select State</label>
+													    <select name="state" class="states form-control" id="stateId" required>
+                                                              <option value="">Select</option >
+                                                        </select>
+													</div>
+												</div>
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label for="password2">Select City</label>
+														 <select name="city" class="cities form-control" id="cityId" required>
+                                                            <option value="">Select</option>
+                                                         </select>
+													</div>
+												</div>
+												<div class="row form-group">
+													<div class="col-md-12">
+														<input type="submit" class="btn btn-primary" value="Show Graph">
+													</div>
+											    </div>
+											</form>	
+										</div>
+
+										<div class="tab-content-inner" data-content="login">
+											<form action="/yeartemp" method="post">
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label for="username">Click on Show Graph to see Average Temprature By Year</label>
+													</div>
+												</div>
+											    <div class="row form-group">
+													<div class="col-md-12">
+												        <input type="submit" class="btn btn-primary" value="Show Graph">
+													</div>
+											    </div>
+											</form>	
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<footer id="gtco-footer" role="contentinfo">
+			<div class="row copyright">
+				<div class="col-md-12">
+					<p class="pull-left">
+						<small class="block">&copy; 2020 GlobalLand WT. All Rights Reserved.</small>
+					</p>
+					<p class="pull-right">
+						<ul class="gtco-social-icons pull-right">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+	<!-- jQuery Easing -->
+	<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js')}}"></script>
+	<!-- Bootstrap -->
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+	<!-- Waypoints -->
+	<script src="{{ url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
+	<!-- Carousel -->
+	<script src="{{ url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+	<!-- countTo -->
+	<script src="{{ url_for('static', filename='js/jquery.countTo.js')}}"></script>
+	<!-- Magnific Popup -->
+	<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='js/magnific-popup-options.js')}}"></script>
+	<!-- Main -->
+	<script src="{{ url_for('static', filename='js/main.js')}}"></script>
+	<script src="{{ url_for('static', filename='js/countrystatecity.js')}}"></script>
+
+	</body>
+</html>
+
